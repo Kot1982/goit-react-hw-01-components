@@ -1,0 +1,33 @@
+.statistics {
+    text-align: center;
+        border: 2px solid darkgrey;
+        border-radius: 5px;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 80px;
+}
+
+.title {
+    text-transform: uppercase;
+    
+}
+
+.statlist {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+       
+}
+.item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;  
+    width: 80px;  
+}
+
+.label {
+    margin-bottom: 10px;
+}
